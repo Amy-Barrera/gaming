@@ -1,4 +1,34 @@
 img {
-    width: 350px;
-    
+    width: 380px;
+    height: 410px;
+
+}
+
+.silla{
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.lag{
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: auto; 
+}
+
+.game{
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    float: right;  
 }
