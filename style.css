@@ -1,34 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 img {
     width: 380px;
     height: 410px;
 
 }
 
-.silla{
+.silla, .lag, .game {
+    height: 100%;
+    display: flex;
+    align-items: center;
     width: 450px;
     height: 450px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
 }
 
-.lag{
-    width: 450px;
-    height: 450px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    margin: auto; 
+/* Estilos específicos para cada div */
+.silla {
+    justify-content: flex-end;
 }
 
-.game{
-    width: 450px;
-    height: 450px;
-    padding: 10px;
+.lag {
+    justify-content: center;
+}
+
+.game {
+    justify-content: flex-start;
+}
+
+  /* Contenedor principal para alinear los divs horizontalmente */
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: right;
-    float: right;  
+    justify-content: space-between;
+    width: 96%; /* Asegura que el contenedor ocupe el ancho completo */
+}
+.gaming {
+    margin-bottom: 90px; /* Ajusta este valor según el espacio deseado */
 }
